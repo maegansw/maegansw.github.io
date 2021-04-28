@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: #f5f1f1;
+}
+
+.name {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	position: fixed;
+	top: 40%;
+	z-index: 1;
+}
+
+h1 {
+	font-size: 8vw;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.8vw;
+}
+
+.top-left {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 10;
+}
+
+.top-right {
+	position: fixed;
+	top: 0;
+	right: 20;
+	transform: rotate(-90deg);
+	transform-origin: bottom right;
+	z-index: 10;
+}
+
+.bottom-left {
+	position: fixed;
+	bottom: 0;
+	left: 20px;
+	transform: rotate(270deg);
+	transform-origin: top left;
+	z-index: 10;
+}
+
+.bottom-right {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 10;
+}
+
+.photos {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center; /* horizontal */
+	align-items: center;
+	position: relative;
+	z-index: 5; /* can only include z-index if there an established position */
+}
+
+div {
+	width: 50%;
+	margin: 50px;
+}
+
+div img {
+	width: 100%;
+}
+
+p {
+	font-size: 1.2vw; /* to make font responsive */
+	color: grey;
+	font-weight: 400;
+	text-align: center;
+	margin: 10px;
+	
+}
+
+.last {
+	margin-bottom: 100vh;
+}
+/* refers to media query ( asking browser the size of the viewport on all borowsers ) */
+@media all and (max-width: 900px) {
+	body {
+		background-color: fuchsia;
+	}
+	h2 {
+		font-size: 22px;
+	}
+}
+
+@media all and (max-width: 640px) {
+	body {
+		background-color: blue; /* at 640 pixels, background will turn blue */ 
+	}
+	.photos {
+		flex-direction: column; /* changes fron 2 colum to 1 column */
+	}
+	div {
+		width: 100%; /* width of images */
+	}
+	h2 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 12px;
+	}
+}
+
+/* chrome tool inspect */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
