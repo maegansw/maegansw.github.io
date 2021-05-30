@@ -6,6 +6,7 @@
 
 body {
 	font-family: 'Space Mono', monospace;
+    background-image: url(webgradient.jpg);
 }
 
 header {
@@ -42,7 +43,7 @@ nav li {
 }
 
 nav a {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
