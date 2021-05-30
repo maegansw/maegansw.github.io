@@ -63,12 +63,12 @@ nav a:hover {
 }
 
 .title {
-    font-size: 200px;
+    font-size: 80px;
     font-weight: 800;
 }
 
 .subtitle {
-    font-size: 100px;
+    font-size: 50px;
     font-family: 'Source Serif Pro', serif;
     font-weight: 300;
 }
