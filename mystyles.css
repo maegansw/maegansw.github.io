@@ -85,6 +85,9 @@ nav a:hover {
 	margin: 25px;
 }
 
+.memoji {
+	width: 100%;
+}
 
 .button {
   background-color: transparent;
@@ -132,16 +135,9 @@ h2 {
 	justify-content: center;
 }
 
+/* CONTACT SECTION */
 
-
-
-
-
-
-
-/* SIMPLE TWO COLUMS */
-
-.container {
+.contact {
 	display: flex;
 	align-items: center;
 	height: 100vh;
@@ -152,100 +148,21 @@ section {
 	padding: 80px;
 }
 
-.memoji {
-	width: 100%;
+.social {
+	margin-left: 100px;
+	font-size: 45px;
+	font-family: 'Source Serif Pro', serif;;
 }
 
-h4 {
-	font-weight: 600;
-	font-size: 24px;
-	color: #453f37;
-	line-height: 1.7;
-}
-
-
-
-/* SIMPLE TWO COLUMS */
-
-.container {
-	display: flex;
+.middle {
 	align-items: center;
-	height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-}
-
-section {
-	width: 50%;
-	padding: 80px;
+	justify-content: center;
+	margin-left: 500px;
+	margin-bottom: 50px;
 }
 
 
 
-/* PICTURES */
-
-.boxes {
-	background-color: white;
-	height: 100vh;
-	width: 100%;
-	position: relative;
-}
-	
-.box1 {
-	width: 700px;
-	height: 400px;
-	background-image: url(Images/one2.png);
-	background-size: cover;
-    box-shadow: 10px 10px fuchsia;
-	position: absolute;
-	top: 50px;
-	right: 600px;
-	z-index: 5;
-}
-
-.box2 {
-	width: 700px;
-	height: 400px;
-	background-image: url(Images/one2.gif);
-	background-size: cover;
-    box-shadow: 10px 10px fuchsia;
-	position: absolute;
-	bottom: 150px;
-	left: 150px;
-	z-index: 4;
-}
-
-.box3 {
-	width: 700px;
-	height: 400px;
-	background-image: url(Images/one4.gif);
-	background-size: cover;
-    box-shadow: 10px 10px fuchsia;
-	position: absolute;
-	top: 600px;
-	right: 400px;
-	z-index: 3;
-}
-
-.box1:hover,
-.box2:hover,
-.box3:hover {
-    z-index: 8;
-}
-
-h5 {
-	color: black;
-    text-shadow: 2px 3px 0px white;
-	font-size: 4vw;
-	font-weight: 400;
-	padding: 100px;
-}
-
-h5:hover {
-	position: absolute;
-    left: 100px;
-	z-index: 60;
-}
 
 
 
